@@ -1,8 +1,9 @@
 const path = require('path');
 
+
 module.exports = {
     entry: {
-        inventory: path.join(__dirname, '../inventory/client/sizeGrid.jsx')
+        bundle: [path.join(__dirname, '../inventory/client/sizeGrid.jsx')]
     },
     module: {
       rules: [
@@ -15,11 +16,15 @@ module.exports = {
               presets: ['@babel/preset-react', '@babel/preset-env']
             }
           }
+        },
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
         }
       ]
     },
      output: {
-      filename: 'bundle.js',
+      filename: '[name].js',
       path: __dirname + '/public/dist'
     }
   };
