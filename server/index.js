@@ -8,7 +8,7 @@ app.listen(5000, () => {
     console.log('Listening on port 5000');
 });
 
-app.get('/:productId/:styleId', (req, res) => {
+app.get('/shop/:productId/:styleId', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/dist/index.html'));
 })
 
