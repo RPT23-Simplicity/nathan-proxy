@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        bundle: [path.join(__dirname, '../inventory/client/sizeGrid.jsx')]
+        bundle: './client/app.jsx'
     },
     module: {
       rules: [

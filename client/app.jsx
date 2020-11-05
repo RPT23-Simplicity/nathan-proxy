@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Footer from './components/footer.jsx';
+import Header from './components/header.jsx';
+
+const headerContainer = document.getElementById('header');
+const footerContainer = document.getElementById('footer');
+
+ReactDOM.render(<Header />, headerContainer);
+ReactDOM.render(<Footer />, footerContainer);
