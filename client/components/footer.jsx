@@ -10,7 +10,7 @@ class Footer extends React.Component {
 
     render () {
         return (
-            <div>Hello from Footer!</div>
+            <div >Hello from Footer!</div>
         )
     }
 }
