@@ -1,4 +1,9 @@
-.header {
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header1 {
     background-color: rgb(243, 243, 243);
     background-size: 100% 100%;
     margin-top: 0;
@@ -56,9 +61,65 @@ svg:hover {
     padding: 7px 3px 3px 3px;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
+.swoosh {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.header2 {
+    margin: -40px 0px 0px 600px;
+    padding: 0px 0px 18px 115px;
+}
+
+.header2-text {
+    font-family: Helvetica;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header2-icon {
+    float: right;
+}
+
+.shopping-bag {
+    float: right;
+    margin-top: -7px;
+    padding-right: 40px;
+}
+
+.favorite {
+    margin-top: -7px;
+    padding-right: 24px;
+}
+
+.search {
+    border-radius: 40px;
+    border-style: none;
+    margin: -15px 40px 0px 0px;
+    height: 40px;
+    width: 170px;
+    background-color: rgb(245, 245, 245);
+}
+
+.search-text {
+    float: right;
+    font-family: helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    color: lightgray;
+    margin: -3px -220px 0px 0px;
+    height: 40px;
+    width: 170px;
+}
+
+.search-icon {
+    float: right;
+    margin: -5px -40px 0px 0px;
+}
+
+.header3 {
+    background-color: rgb(243, 243, 243);
+    height: 60px;
 }
 
 .menu-right {
