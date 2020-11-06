@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 .header1 {
@@ -145,15 +146,20 @@ svg:hover {
 
 .menu-right {
     float: right;
-    padding: 0px 160px;
+    padding: 0px 160px 0px 50px;
 }
 
 #inventory-module {
+    padding-left: 20px;
     width: 95%;
 }
 
 #reviews-module {
-    padding-left: 5px;
+    padding-left: 30px;
+}
+
+#product-module {
+    padding-top: 60px;
 }
 
 .gallery {
