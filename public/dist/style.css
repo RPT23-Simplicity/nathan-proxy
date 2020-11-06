@@ -161,3 +161,72 @@ svg:hover {
     width: 900px;
 }
 
+.footer {
+    margin-top: 150px;
+    background-color: rgb(15, 15, 15);
+    height: 300px;
+    width: auto;
+}
+
+.footer-content {
+    height: 275px;
+}
+
+.list1 {
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 250px;
+    float: left;
+}
+
+.list2 {
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 100px;
+    float: left;
+}
+
+.list3 {
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 150px;
+    float: left;
+}
+
+.footer-text {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.subtext {
+    color: rgb(90, 90, 90);
+}
+
+.subtext:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-socials {
+    padding-right: 250px;
+    padding-top: 45px;
+}
+
+svg.social-link-icon {
+    fill: rgb(128, 128, 128);
+    float: right;
+    padding: 10px;
+}
+
+svg.social-link-icon:hover {
+    fill: white;
+    cursor: pointer;
+}
