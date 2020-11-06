@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './Banner.jsx';
 
 class Header extends React.Component {
     constructor(props) {
@@ -41,7 +42,7 @@ class Header extends React.Component {
                     <span className="search-text">Search</span>
                 </div>
                 <div className="header3">
-                    
+                    <Banner />
                 </div>
             </div>
         )

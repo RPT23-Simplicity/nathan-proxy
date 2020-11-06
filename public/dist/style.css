@@ -119,7 +119,28 @@ svg:hover {
 
 .header3 {
     background-color: rgb(243, 243, 243);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightgray;
     height: 60px;
+}
+
+.banner-slider {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    padding: 0px 250px;
+    font-family: Helvetica;
+}
+
+.banner-arrows {
+    cursor: pointer;
+    width: 9px;
 }
 
 .menu-right {
